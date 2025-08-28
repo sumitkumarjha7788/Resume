@@ -2,7 +2,7 @@
 const resumeData = {
   "personal": {
     "name": "Sumit Kumar Jha",
-    "email": "sumitiyha7788@gmail.com",
+    "email": "sumitkjha7788@gmail.com",
     "linkedin": "www.linkedin.com/in/sumit-kumar-jha-7788vampyr"
   },
   "roles": {
@@ -50,7 +50,7 @@ const resumeData = {
           ]
         },
         {
-          "title": "Test Automation Engineer",
+          "title": " Automation Engineer",
           "dates": "February 2021 - April 2023 (2 years 3 months)", 
           "location": "Gurugram, Haryana, India",
           "details": [
@@ -104,8 +104,8 @@ const resumeData = {
     }
   ],
   "certifications": [
-    "AWS Certified Machine Learning Engineer - Associate",
-    "Microsoft Certified: Azure Data Scientist Associate", 
+    // "AWS Certified Machine Learning Engineer - Associate",
+    // "Microsoft Certified: Azure Data Scientist Associate", 
     "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization",
     "Certificate of completion - Deep Learning with TensorFlow 2",
     "Deep Learning Specialization",
@@ -114,7 +114,9 @@ const resumeData = {
   ],
   "awards": [
     "Employee of the Semester",
-    "'Synergy' award - Team of the semester"
+    "ChangeMaker Award -H2 2022",
+    "'Synergy' award - Team of the semester",
+    "ChangeMaker Award H1 2025"
   ]
 };
 
@@ -130,7 +132,7 @@ const roleSkillHighlights = {
   ],
   "AI Engineer": [
     "Python", "TensorFlow", "PyTorch", "GCP (Vertex AI, BigQuery)", "Azure (Machine Learning, Azure AI services)",
-    "Natural Language Processing (NLP)", "Computer Vision", "Generative AI & LLMs", "RAG", "AI AGENTS"
+    "Natural Language Processing (NLP)", "Computer Vision", "Generative AI & LLMs", "RAG", "AI AGENTS","Context Engineering"
   ]
 };
 
