@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumit Kumar Jha - Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+
+<body>
+    <div class="resume-container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="header-content">
+                <div class="profile-info">
+                    <h1 class="name">Sumit Kumar Jha</h1>
+                    <h2 class="current-title" id="currentTitle">Senior Machine Learning Engineer</h2>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i data-lucide="mail"></i>
+                        <a href="mailto:sumitiyha7788@gmail.com">sumitkjha7788@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i data-lucide="linkedin"></i>
+                        <a href="https://www.linkedin.com/in/sumit-kumar-jha-7788vampyr" target="_blank">LinkedIn
+                            Profile</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Role Selector -->
+        <section class="role-selector">
+            <div class="role-tabs">
+                <button class="role-tab active" data-role="ML Engineer">ML Engineer</button>
+                <button class="role-tab" data-role="Data Scientist">Data Scientist</button>
+                <button class="role-tab" data-role="AI Engineer">AI Engineer</button>
+            </div>
+        </section>
+
+        <!-- Summary Section -->
+        <section class="summary-section">
+            <h3 class="section-title">Professional Summary</h3>
+            <div class="summary-content" id="summaryContent">
+                <p>Experienced Senior ML Engineer with over 6 years in designing and optimizing scalable AI solutions.
+                    Expert in Deep Learning, MLOps, and model deployment. Proven track record in reducing operational
+                    costs by 85-90% through advanced ML implementations and automated solutions.</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills-section">
+            <h3 class="section-title">Skills & Expertise</h3>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4 class="skill-category-title">
+                        <i data-lucide="code"></i>
+                        Technical Skills
+                    </h4>
+                    <div class="skills-list" id="technicalSkills">
+                        <!-- Skills will be populated by JavaScript -->
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4 class="skill-category-title">
+                        <i data-lucide="brain"></i>
+                        Domain Expertise
+                    </h4>
+                    <div class="skills-list" id="domainSkills">
+                        <!-- Skills will be populated by JavaScript -->
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4 class="skill-category-title">
+                        <i data-lucide="users"></i>
+                        Soft Skills
+                    </h4>
+                    <div class="skills-list" id="softSkills">
+                        <!-- Skills will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience-section">
+            <h3 class="section-title">Professional Experience</h3>
+            <div class="experience-list" id="experienceList">
+                <!-- Experience will be populated by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education-section">
+            <h3 class="section-title">Education</h3>
+            <div class="education-item card">
+                <div class="education-header">
+                    <h4 class="degree">Bachelor of Technology - BTech (Honours)</h4>
+                    <span class="years">2016 - 2020</span>
+                </div>
+                <p class="major">Computer Software Engineering</p>
+                <p class="institution">Baddi University of Emerging Sciences and Technology</p>
+                <p class="location">Budha (Makhnumajra), Solan</p>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="certifications-section">
+            <h3 class="section-title">Certifications</h3>
+            <div class="certifications-grid" id="certificationsList">
+                <!-- Certifications will be populated by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Awards Section -->
+        <section class="awards-section">
+            <h3 class="section-title">Awards & Recognition</h3>
+            <div class="awards-list" id="awardsList">
+                <!-- Awards will be populated by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Action Buttons -->
+        <div class="action-buttons">
+            <button class="btn btn--primary" id="exportBtn">
+                <i data-lucide="download"></i>
+                Export to PDF
+            </button>
+            <button class="btn btn--outline" id="printBtn">
+                <i data-lucide="printer"></i>
+                Print Resume
+            </button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
